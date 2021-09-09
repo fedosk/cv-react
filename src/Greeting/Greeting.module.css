@@ -1,0 +1,43 @@
+.content {
+    height: calc(100vh - 80px);
+    padding: 50px 0;
+}
+
+.content__wrapper {
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media (max-width: 768px) {
+    .content__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+}
+
+.text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: start;
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 18px;
+        text-align: center;
+    }
+
+}
+
+.img__wrapper {
+    width: 300px;
+}
+
+.img {
+    max-width: 100%;
+}
