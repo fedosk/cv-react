@@ -1,14 +1,36 @@
 import React from 'react';
 import styles from "./ProjectCard.module.css";
-import reactIcon from './../../assets/react-2.svg'
+import Tilt from 'react-parallax-tilt'
 
-const ProjectCard = () => {
+type PropsType = {
+    src: string
+    title: string
+    borderColor: string
+    backgroundColor: string
+}
+
+function ProjectCard(props: PropsType) {
+
+    const stylesCardWrapper = {
+        backgroundColor: props.backgroundColor,
+        border: `2px solid ${props.borderColor}`,
+    }
+
     return (
-        <div className={styles.wrapper}>
-            <img className={styles.img} src={reactIcon} alt="reactIcon"/>
-            <h4 className={styles.card_title}>React</h4>
-            <p className={styles.card_subtitle}>Social Network</p>
-        </div>
+        <Tilt
+            className={styles.trackOnWindow}
+            perspective={10000}
+            glareEnable={true}
+            glareMaxOpacity={0.75}
+            glarePosition="all"
+            scale={1.02}
+            style={stylesCardWrapper}
+        >
+            <div className={styles.wrapper} >
+                <img className={styles.img} src={props.src} alt="reactIcon"/>
+                <h5 className={styles.card_title}>{props.title}</h5>
+            </div>
+        </Tilt>
     );
 }
 

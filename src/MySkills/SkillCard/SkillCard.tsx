@@ -9,13 +9,6 @@ type PropsType = {
     backgroundColor: string
 }
 
-type stylesCardWrapperType = {
-    backgroundColor: string
-}
-
-
-
-
 function SlillCard(props: PropsType) {
 
     const stylesCardWrapper = {
@@ -26,11 +19,11 @@ function SlillCard(props: PropsType) {
     return (
         <Tilt
             className={styles.trackOnWindow}
-            perspective={500}
+            perspective={2000}
             glareEnable={true}
             glareMaxOpacity={0.75}
             glarePosition="all"
-            scale={1.02}
+            scale={1.01}
             style={stylesCardWrapper}
         >
             <div className={styles.wrapper} >

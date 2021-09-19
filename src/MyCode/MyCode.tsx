@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './Contact.module.css'
+import styles from './MyCode.module.css'
 import SyntaxHighlighter from "react-syntax-highlighter/dist/esm/prism-async";
 import {darcula} from "react-syntax-highlighter/dist/esm/styles/prism";
 
 
-function Contact() {
+function MyCode() {
 
     return (
         <div className={styles.contact__wrapper}>
@@ -36,4 +36,4 @@ function Contact() {
     );
 }
 
-export default Contact;
+export default MyCode;
