@@ -26,14 +26,24 @@
     .content__wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
         align-items: center;
     }
     .text__wrapper {
         align-items: center;
     }
     .text {
-        font-size: 14px;
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 321px) {
+    .img {
+        max-width: 150px;
+    }
+    .text {
+        font-size: 18px;
         text-align: center;
     }
 }

@@ -10,21 +10,30 @@ import ProjectCard from "./../MyProjects/ProjectCard/ProjectCard";
 
 function MyProjects() {
     return (
-        <div className={styles.wrapper}>
+        <section className={styles.wrapper}>
             <div className={`${styles.content} container`}>
                 <div className={styles.title__wrapper}>
                     <h3 className={styles.title}>My Projects</h3>
                 </div>
                 <div className={styles.cards__wrapper}>
-                    <ProjectCard title={'Social Network'} src={social} borderColor={'#dad6ff'} backgroundColor={'#eeedfe'}/>
-                    <ProjectCard title={'Counter'} src={counter} borderColor={'#f5e7ff'} backgroundColor={'#fdf7ff'}/>
-                    <ProjectCard title={'Museum'} src={museum} borderColor={'#ffefd6'} backgroundColor={'#fef9ed'}/>
-                    <ProjectCard title={'Calculator'} src={calculator} borderColor={'#FFE7F0'} backgroundColor={'#FFF7FA'}/>
-                    <ProjectCard title={'Virtual Piano'} src={piano} borderColor={'#dbf9fc'} backgroundColor={'#f0ffff'}/>
-                    <ProjectCard title={'Wildlife'} src={wildlife} borderColor={'#e9ffdd'} backgroundColor={'#f7fff5'}/>
+                    <a href={'https://fedosk.github.io/social-network/'} target="_blank">
+                        <ProjectCard title={'Social Network'} src={social} borderColor={'#dad6ff'} backgroundColor={'#eeedfe'}/>
+                    </a>
+                    <a href={'https://fedosk.github.io/Counter/'} target="_blank">
+                        <ProjectCard title={'Counter'} src={counter} borderColor={'#f5e7ff'} backgroundColor={'#fdf7ff'}/>
+                    </a>
+                    <a href={'https://rolling-scopes-school.github.io/fedosk-JSFEPRESCHOOL/museum/'} target="_blank">
+                        <ProjectCard title={'Museum'} src={museum} borderColor={'#ffefd6'} backgroundColor={'#fef9ed'}/>
+                    </a>
+                    <a href={'https://rolling-scopes-school.github.io/fedosk-JS2020Q3/calculator/'} target="_blank">
+                        <ProjectCard title={'Calculator'} src={calculator} borderColor={'#FFE7F0'} backgroundColor={'#FFF7FA'}/>
+                    </a>
+                    <a href={'https://rolling-scopes-school.github.io/fedosk-JSFE2021Q1/virtual-piano/'} target="_blank">
+                        <ProjectCard title={'Virtual Piano'} src={piano} borderColor={'#dbf9fc'} backgroundColor={'#f0ffff'}/>
+                    </a>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
 

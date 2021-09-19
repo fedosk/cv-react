@@ -4,7 +4,7 @@ import styles from './Header.module.css'
 function Header() {
     return (
         <header className={styles.header}>
-            <div className={`${styles.header__content} container`}>
+            <nav className={`${styles.header__content} container`}>
                 <ul className={styles.nav_list}>
                     <li className={styles.nav_item}>
                         <a className={styles.nav_link} href={"#Main"}>Main</a>
@@ -22,7 +22,7 @@ function Header() {
                         <a className={styles.nav_link} href={"#Contacts"}>Contacts</a>
                     </li>
                 </ul>
-            </div>
+            </nav>
         </header>
     );
 }

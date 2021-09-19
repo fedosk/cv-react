@@ -7,10 +7,12 @@ import {darcula} from "react-syntax-highlighter/dist/esm/styles/prism";
 function MyCode() {
 
     return (
-        <div className={styles.contact__wrapper}>
-            <div className={`${styles.contact__content} ${styles.container}`}>
+        <section className={styles.wrapper}>
+            <div className={`${styles.content} container`}>
+                <h3 className={styles.my_code__title}>My Code</h3>
                 <SyntaxHighlighter language="javascript" style={darcula}>
-                    {`function fridayTheThirteenths(start, end) {
+                    {
+                    `function f(start, end) {
                       let howManyFridays = []
                       if (typeof end == "undefined") {
                         for(let i = 0; i < 12; i++){
@@ -29,10 +31,11 @@ function MyCode() {
                         }
                       }
                       return howManyFridays.join(' ')
-                    }`}
+                    }`
+                    }
                 </SyntaxHighlighter>
             </div>
-        </div>
+        </section>
     );
 }
 

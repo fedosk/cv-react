@@ -11,19 +11,16 @@
     padding: 0 10px;
     align-items: center;
     justify-content: center;
-    border-bottom: 2px solid black;
-}
 
-@media (max-width: 768px) {
-    .header__content {
-        justify-content: center;
-    }
 }
 
 .nav_list {
     display: flex;
+    align-items: center;
+    height: 80px;
     width: 100%;
-    justify-content: space-around;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
 }
 
 .nav_link {
@@ -32,20 +29,13 @@
     font-weight: bold;
 }
 
-.nav_item  {
-    margin-left: 20px;
-}
 
 @media (max-width: 480px) {
     .nav_link {
-        font-size: 16px;
+        font-size: 14px;
     }
     .nav_item {
-        margin-left: 10px;
+        margin-left: 0;
     }
-}
-
-.nav_item + .nav_item {
-    margin-left: 20px;
 }
 

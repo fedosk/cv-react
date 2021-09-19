@@ -1,0 +1,19 @@
+.wrapper {
+    background: #F6F6F6;
+}
+
+.content__wrapper {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 321px) {
+
+}
