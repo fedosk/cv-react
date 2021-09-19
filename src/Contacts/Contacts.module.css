@@ -5,15 +5,60 @@
 .content__wrapper {
     height: 500px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 
-
+.title {
+    font-weight: 900;
+    font-size: 50px;
+}
 @media (max-width: 768px) {
-
+    .title {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 321px) {
 
+}
+
+.form {
+    background: #F6F6F6;
+    width: 800px;
+    margin: 0 auto;
+}
+
+.input {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    border-bottom: 1px solid black;
+    background: #F6F6F6;
+}
+
+
+
+
+.input_btn {
+    display: block;
+    appearance: none;
+    background: #8c9ae8;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    transition: 0.3s all;
+}
+
+.input_btn:hover {
+    transition: 0.3s all;
+    background: #6e7ce5;
 }
