@@ -1,0 +1,39 @@
+.wrapper {
+    background: #F6F6F6;
+}
+
+.content__wrapper {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 20px 0;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .content__wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: center;
+    }
+    .text__wrapper {
+        align-items: center;
+    }
+    .text {
+        font-size: 14px;
+        text-align: center;
+    }
+}

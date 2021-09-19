@@ -7,15 +7,18 @@ function Greeting() {
         <div className={styles.wrapper}>
             <div className={`${styles.content} container`}>
                 <div className={styles.content__wrapper}>
-                    <p className={styles.text}>Hello!<br/>
-                        My name is Eduard Fedosevich <br/>
-                        I'm a front-end developer!
-                    </p>
-                    <div className={styles.img__wrapper}><img className={styles.img} src={myPhoto} alt="myPhoto"/></div>
+                    <div className={styles.text__wrapper}>
+                        <span className={styles.text__name}>Eduard <br/>Fedosevich<br/></span>
+                        <span className={styles.text}>Frontend developer<br/>24 years old, Minsk</span>
+                    </div>
+                    <div className={styles.img__wrapper}>
+                        <img className={styles.img} src={myPhoto} alt="myPhoto"/>
+                    </div>
                 </div>
             </div>
         </div>
     );
 }
+
 
 export default Greeting;

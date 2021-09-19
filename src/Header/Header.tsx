@@ -16,6 +16,9 @@ function Header() {
                         <a className={styles.nav_link} href={"#Projects"}>Projects</a>
                     </li>
                     <li className={styles.nav_item}>
+                        <a className={styles.nav_link} href={"#Contacts"}>Code</a>
+                    </li>
+                    <li className={styles.nav_item}>
                         <a className={styles.nav_link} href={"#Contacts"}>Contacts</a>
                     </li>
                 </ul>

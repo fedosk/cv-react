@@ -1,13 +1,22 @@
-.wrapper {
-    width: 220px;
-    height: 350px;
+.trackOnWindow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
     border-radius: 10px;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    background-color: white;
+    transform-style: preserve-3d;
+}
+
+.wrapper {
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+    transform: translateZ(60px);
 }
 
 @media (max-width: 768px) {
@@ -19,3 +28,10 @@
 .img {
     width: 100px;
 }
+
+.card_title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+}
+
