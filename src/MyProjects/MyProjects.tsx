@@ -5,12 +5,11 @@ import counter from './../assets/counter.png'
 import museum from './../assets/museum.png'
 import calculator from './../assets/calculator.png'
 import piano from './../assets/virtual-piano.png'
-import wildlife from './../assets/wildlife.png'
 import ProjectCard from "./../MyProjects/ProjectCard/ProjectCard";
 
 function MyProjects() {
     return (
-        <section className={styles.wrapper}>
+        <section className={styles.wrapper} id={'Projects'}>
             <div className={`${styles.content} container`}>
                 <div className={styles.title__wrapper}>
                     <h3 className={styles.title}>My Projects</h3>

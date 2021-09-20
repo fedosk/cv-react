@@ -14,20 +14,23 @@
     font-weight: 900;
     font-size: 50px;
 }
+
+.form {
+    background: #F6F6F6;
+    min-width: 768px;
+    margin: 0 auto;
+}
+
 @media (max-width: 768px) {
-    .title {
-        font-size: 35px;
+    .form {
+        min-width: 321px;
     }
 }
 
 @media (max-width: 321px) {
-
-}
-
-.form {
-    background: #F6F6F6;
-    width: 800px;
-    margin: 0 auto;
+    .form {
+        min-width: 0;
+    }
 }
 
 .input {
@@ -40,9 +43,6 @@
     border-bottom: 1px solid black;
     background: #F6F6F6;
 }
-
-
-
 
 .input_btn {
     display: block;

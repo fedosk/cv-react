@@ -3,7 +3,7 @@ import styles from './AboutMe.module.css'
 
 function AboutMe() {
     return (
-        <section className={styles.wrapper}>
+        <section className={styles.wrapper} id={'aboutme'}>
             <div className={`${styles.content} container`}>
                 <div className={styles.content__wrapper}>
                     <div className={styles.text__wrapper}>

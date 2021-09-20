@@ -32,10 +32,7 @@
 
 @media (max-width: 768px) {
     .cards__wrapper {
-        display: flex;
         flex-direction: column;
-        justify-content: space-around;
         align-items: center;
-        width: 100%;
     }
 }

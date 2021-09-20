@@ -10,7 +10,7 @@ import cssIcon from './../assets/css.png'
 
 function MySkills() {
     return (
-        <section className={styles.wrapper}>
+        <section className={styles.wrapper} id={'Scills'}>
             <div className={`${styles.content} container`}>
                 <div className={styles.title__wrapper}>
                     <h3 className={styles.title}>Skills</h3>

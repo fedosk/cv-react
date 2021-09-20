@@ -1,41 +1,4 @@
-@value widths: "./../App.css";
-
-.header {
-    background-color: #ffffff;
-
-}
-
-.header__content {
-    display: flex;
-    height: 80px;
-    padding: 0 10px;
-    align-items: center;
-    justify-content: center;
-
-}
-
-.nav_list {
-    display: flex;
-    align-items: center;
-    height: 80px;
-    width: 100%;
-    justify-content: space-between;
-    border-bottom: 2px solid black;
-}
-
-.nav_link {
-    font-size: 20px;
-    color: #000;
-    font-weight: bold;
-}
 
 
-@media (max-width: 480px) {
-    .nav_link {
-        font-size: 14px;
-    }
-    .nav_item {
-        margin-left: 0;
-    }
-}
+
 

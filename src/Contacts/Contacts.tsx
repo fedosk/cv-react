@@ -1,16 +1,10 @@
 import React from 'react';
 import styles from './Contacts.module.css'
-import {useForm, SubmitHandler} from "react-hook-form";
-
-type Inputs = {
-    example: string,
-    exampleRequired: string,
-};
 
 function Contacts() {
 
     return (
-        <section className={styles.wrapper}>
+        <section className={styles.wrapper} id={'Contacts'}>
             <div className={`${styles.content} container`}>
                 <div className={styles.content__wrapper}>
                     <h3 className={styles.title}>Contact with me</h3>

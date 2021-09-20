@@ -5,9 +5,8 @@ import {darcula} from "react-syntax-highlighter/dist/esm/styles/prism";
 
 
 function MyCode() {
-
     return (
-        <section className={styles.wrapper}>
+        <section className={styles.wrapper} id={'Code'}>
             <div className={`${styles.content} container`}>
                 <h3 className={styles.my_code__title}>My Code</h3>
                 <SyntaxHighlighter language="javascript" style={darcula}>
