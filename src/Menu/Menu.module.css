@@ -39,7 +39,7 @@
 
 @media (max-width: 480px) {
     .nav_list {
-        visibility: hidden;
+        display: none;
     }
     .nav_item {
         margin-left: 10px;

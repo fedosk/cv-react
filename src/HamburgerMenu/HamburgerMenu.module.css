@@ -2,7 +2,7 @@
 
 @media (min-width: 480px) {
     .hamburgerMenu {
-        visibility: hidden;
+       display: none;
     }
 }
 
@@ -50,7 +50,7 @@
     visibility: hidden;
     top: 0;
     left: -100%;
-    width: 100%;
+    min-width: 320px;
     height: 100%;
     margin: 0;
     padding: 80px 0;
@@ -61,10 +61,10 @@
 }
 /* элементы меню */
 .menu__item {
-    display: block;
+    display: inline-block;
     padding: 12px 24px;
+    width: 320px;
     color: #333;
-    width: 50px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-weight: 600;
