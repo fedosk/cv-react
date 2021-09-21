@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cv-react/static/css/main.f2c04904.chunk.css",
-    "main.js": "/cv-react/static/js/main.d5401621.chunk.js",
-    "main.js.map": "/cv-react/static/js/main.d5401621.chunk.js.map",
+    "main.css": "/cv-react/static/css/main.d3148a1d.chunk.css",
+    "main.js": "/cv-react/static/js/main.c8d32f48.chunk.js",
+    "main.js.map": "/cv-react/static/js/main.c8d32f48.chunk.js.map",
     "runtime-main.js": "/cv-react/static/js/runtime-main.6375fc54.js",
     "runtime-main.js.map": "/cv-react/static/js/runtime-main.6375fc54.js.map",
     "static/js/2.dc9462f6.chunk.js": "/cv-react/static/js/2.dc9462f6.chunk.js",
@@ -12,7 +12,7 @@
     "static/js/4.6e3e2c20.chunk.js": "/cv-react/static/js/4.6e3e2c20.chunk.js",
     "static/js/4.6e3e2c20.chunk.js.map": "/cv-react/static/js/4.6e3e2c20.chunk.js.map",
     "index.html": "/cv-react/index.html",
-    "static/css/main.f2c04904.chunk.css.map": "/cv-react/static/css/main.f2c04904.chunk.css.map",
+    "static/css/main.d3148a1d.chunk.css.map": "/cv-react/static/css/main.d3148a1d.chunk.css.map",
     "static/js/2.dc9462f6.chunk.js.LICENSE.txt": "/cv-react/static/js/2.dc9462f6.chunk.js.LICENSE.txt",
     "static/js/3.241e61ce.chunk.js.LICENSE.txt": "/cv-react/static/js/3.241e61ce.chunk.js.LICENSE.txt",
     "static/media/Typescript_logo_2020.e0cf5672.svg": "/cv-react/static/media/Typescript_logo_2020.e0cf5672.svg",
@@ -35,7 +35,7 @@
   "entrypoints": [
     "static/js/runtime-main.6375fc54.js",
     "static/js/3.241e61ce.chunk.js",
-    "static/css/main.f2c04904.chunk.css",
-    "static/js/main.d5401621.chunk.js"
+    "static/css/main.d3148a1d.chunk.css",
+    "static/js/main.c8d32f48.chunk.js"
   ]
 }
