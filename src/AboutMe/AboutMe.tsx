@@ -10,8 +10,12 @@ function AboutMe() {
                         <p className={styles.text}>Hi, I'm Eduard – frontend developer from Minsk</p>
                         <p className={styles.text}>I'm interested in web-technologies and everything connected with
                             it</p>
-                        <p className={styles.text}>I'm studying at IT-Incubator and RSShool.
+                        <p className={styles.text}>I'm studying at <b>IT-Incubator</b> and <b>RSShool</b>.
                             Ready to implement excellent projects with wonderful people</p>
+                        <p className={styles.text}><b>Education:</b> Belarusian national technical university power
+                            engineering faculty, power plants, 2014-2019
+                        </p>
+                        <p className={styles.text}><b>English:</b> Pre-Intermedia (In progress)</p>
                     </div>
                 </div>
             </div>

@@ -30,11 +30,6 @@ function ContactLinks() {
                         <img className={styles.img} src={telegram} alt="telegram"/>
                     </a>
                 </li>
-                <li className={styles.links__item}>
-                    <a className={styles.link} href="https://rs.school/js/" target="_blank">
-                        <img className={styles.img} src={rss} alt="rs_school"/>
-                    </a>
-                </li>
             </ul>
         </div>
     );

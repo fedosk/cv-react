@@ -4,7 +4,7 @@ import myPhoto from '../assets/photo.jpg'
 
 function Greeting() {
     return (
-        <section className={styles.wrapper} id={'greeting'}>
+        <main className={styles.wrapper} id={'greeting'}>
             <div className={`${styles.content} container`}>
                 <div className={styles.content__wrapper}>
                     <div className={styles.text__wrapper}>
@@ -17,7 +17,7 @@ function Greeting() {
                     </div>
                 </div>
             </div>
-        </section>
+        </main>
     );
 }
 

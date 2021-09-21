@@ -5,6 +5,7 @@ import Tilt from 'react-parallax-tilt'
 type PropsType = {
     src: string
     title: string
+    subtitle: string
     borderColor: string
     backgroundColor: string
 }
@@ -29,6 +30,7 @@ function ProjectCard(props: PropsType) {
             <div className={styles.wrapper} >
                 <img className={styles.img} src={props.src} alt="reactIcon"/>
                 <h5 className={styles.card_title}>{props.title}</h5>
+                <h6>{props.subtitle}</h6>
             </div>
         </Tilt>
     );
